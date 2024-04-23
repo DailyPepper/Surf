@@ -13,19 +13,29 @@ const Header = () => {
                         </Link>
                     </li>
                     <li>
-                        О нас
+                        <Link href={''}>
+                            О нас
+                        </Link>
                     </li>
                     <li>
-                        Программа
+                        <Link href={''}>
+                            Программа
+                        </Link>
                     </li>
                     <li>
-                        Акции
+                        <Link href={''}>
+                            Акции
+                        </Link>
                     </li>
                     <li>
-                        Отзывы
+                        <Link href={''}>
+                            Отзывы
+                        </Link>
                     </li>
                     <li>
-                        Контакты
+                        <Link href={'/contacts'}>
+                            Контакты
+                        </Link>
                     </li>
                 </ul>
             </div>
